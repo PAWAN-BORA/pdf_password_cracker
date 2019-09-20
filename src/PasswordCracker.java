@@ -18,7 +18,7 @@ public class PasswordCracker {
     public static void main(String[] args) throws IOException {
         Instant start = Instant.now();
         System.out.println("Trying to get the password");
-        file = new File("E:\\java\\newPdf.pdf");
+        file = new File("path of your pdf file");
         for(int i=1; i<=8; i++) {
             if(done) {
                 break;
